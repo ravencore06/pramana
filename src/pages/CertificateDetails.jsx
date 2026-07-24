@@ -97,7 +97,7 @@ export default function CertificateDetails() {
                     <div className="text-left">
                       <p className="text-xs text-slate-400">Principal</p>
                       <div className="w-28 h-0.5 bg-[#0F172A] mt-1" />
-                      <p className="text-xs text-slate-500 mt-0.5 font-serif italic">Dr. MVGR Rao</p>
+                      <p className="text-xs text-slate-500 mt-0.5 font-serif italic">Dr. Y M C Shekhar</p>
                     </div>
                     <div className="w-px h-10 bg-slate-200" />
                     <div className="text-left">

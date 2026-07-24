@@ -92,7 +92,7 @@ export default function CertificatePreviewPage() {
                   <path d="M10,25 Q30,5 50,20 Q70,10 90,18 Q100,22 115,15" fill="none" stroke="currentColor" strokeWidth="1.5" />
                 </svg>
               </div>
-              <p className="text-sm font-semibold text-[#0F172A]">Dr. MVGR Rao</p>
+              <p className="text-sm font-semibold text-[#0F172A]">Dr. Y M C Shekhar</p>
               <p className="text-xs text-slate-500">Principal</p>
             </div>
             <div className="text-right">
