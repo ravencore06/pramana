@@ -42,7 +42,7 @@ export default function VerificationResultCard({ result, type }) {
             }`}
           >
             {isValid
-              ? "This certificate is valid and issued by Aster Institute of Technology."
+              ? "This certificate is valid and issued by MVGR College of Engineering."
               : result.reason || "The certificate could not be verified."}
           </p>
         </div>

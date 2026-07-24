@@ -51,7 +51,7 @@ export default function Dashboard() {
     <div>
       <PageHeader
         title="Dashboard"
-        description="Welcome back, Registrar. Here is the latest overview of the certificate system."
+        description="Welcome back, Principal. Here is the latest overview of the certificate system."
       />
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">

@@ -93,7 +93,7 @@ export default function IssueCertificate() {
               ]} />
               <Input label="CGPA" id="cgpa" name="cgpa" type="number" step="0.01" min="0" max="10" value={form.cgpa} onChange={handleChange} required placeholder="e.g. 8.92" />
               <Input label="Issue Date" id="issueDate" name="issueDate" type="date" value={form.issueDate} onChange={handleChange} required />
-              <Input label="Email" id="email" name="email" type="email" value={form.email} onChange={handleChange} placeholder="student@aster.edu" />
+              <Input label="Email" id="email" name="email" type="email" value={form.email} onChange={handleChange} placeholder="student@mvgrce.edu.in" />
               <Select label="Certificate Type" id="certificateType" name="certificateType" value={form.certificateType} onChange={handleChange} options={[
                 { value: "Degree Certificate", label: "Degree Certificate" },
                 { value: "Provisional Certificate", label: "Provisional Certificate" },

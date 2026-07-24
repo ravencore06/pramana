@@ -48,8 +48,8 @@ export default function CertificateDetails() {
                 <div className="flex items-center gap-3">
                   <GraduationCap size={20} className="text-white" />
                   <div>
-                    <h2 className="text-sm font-bold text-white">Aster Institute of Technology</h2>
-                    <p className="text-[10px] text-blue-200">Academic Certificate</p>
+<h2 className="text-sm font-bold text-white">MVGR College of Engineering</h2>
+                <p className="text-[10px] text-blue-200">Maharaj Vijayaram Gajapathi Raj College of Engineering</p>
                   </div>
                 </div>
                 <StatusBadge status={cert.status} />
@@ -95,9 +95,9 @@ export default function CertificateDetails() {
                 <div className="border-t border-slate-200 pt-4 flex items-center justify-between">
                   <div className="flex items-center gap-4">
                     <div className="text-left">
-                      <p className="text-xs text-slate-400">Registrar</p>
+                      <p className="text-xs text-slate-400">Principal</p>
                       <div className="w-28 h-0.5 bg-[#0F172A] mt-1" />
-                      <p className="text-xs text-slate-500 mt-0.5 font-serif italic">Dr. A. Sharma</p>
+                      <p className="text-xs text-slate-500 mt-0.5 font-serif italic">Dr. MVGR Rao</p>
                     </div>
                     <div className="w-px h-10 bg-slate-200" />
                     <div className="text-left">

@@ -27,8 +27,9 @@ export default function CertificatePreviewPage() {
               <GraduationCap size={32} className="text-white" />
             </div>
           </div>
-          <h1 className="text-xl font-bold text-white">Aster Institute of Technology</h1>
-          <p className="text-xs text-blue-200 mt-0.5">Established 2005 · UGC Approved · NAAC Accredited</p>
+          <h1 className="text-xl font-bold text-white">MVGR College of Engineering</h1>
+          <p className="text-xs text-blue-200 mt-0.5">Maharaj Vijayaram Gajapathi Raj College of Engineering</p>
+          <p className="text-[10px] text-blue-200/70">Est. 1997 · Chintalavalasa, Vizianagaram · NAAC 'A' Accredited</p>
           <div className="mt-3 h-px bg-white/20" />
           <p className="text-[10px] text-blue-200 mt-2 tracking-widest uppercase">Academic Certificate</p>
         </div>
@@ -91,8 +92,8 @@ export default function CertificatePreviewPage() {
                   <path d="M10,25 Q30,5 50,20 Q70,10 90,18 Q100,22 115,15" fill="none" stroke="currentColor" strokeWidth="1.5" />
                 </svg>
               </div>
-              <p className="text-sm font-semibold text-[#0F172A]">Dr. A. Sharma</p>
-              <p className="text-xs text-slate-500">Registrar</p>
+              <p className="text-sm font-semibold text-[#0F172A]">Dr. MVGR Rao</p>
+              <p className="text-xs text-slate-500">Principal</p>
             </div>
             <div className="text-right">
               <div className="w-14 h-14 rounded-full border-2 border-[#0F172A] flex items-center justify-center ml-auto">
@@ -105,7 +106,7 @@ export default function CertificatePreviewPage() {
 
         <div className="bg-slate-50 border-t border-slate-200 px-8 py-3 text-center">
           <p className="text-[10px] text-slate-400">
-            This certificate can be verified at https://verify.aster.edu · Hash verification ensures tamper-proof authenticity.
+            This certificate can be verified at https://mvgrce.com · Hash verification ensures tamper-proof authenticity.
           </p>
         </div>
       </div>

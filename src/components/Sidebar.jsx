@@ -70,7 +70,7 @@ export default function Sidebar({ open, onClose }) {
             <p className="text-[10px] text-slate-400 leading-relaxed">
               Pramāṇa v1.0.0
               <br />
-              Aster Institute of Technology
+              MVGR College of Engineering
             </p>
           </div>
         </div>

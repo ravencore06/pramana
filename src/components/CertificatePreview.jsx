@@ -9,8 +9,9 @@ export default function CertificatePreview({ data }) {
             <GraduationCap size={28} className="text-white" />
           </div>
         </div>
-        <h3 className="text-lg font-bold text-[#0F172A]">Aster Institute of Technology</h3>
-        <p className="text-xs text-slate-500 mt-0.5">Established 2005 · UGC Approved</p>
+        <h3 className="text-lg font-bold text-[#0F172A]">MVGR College of Engineering</h3>
+  <p className="text-xs text-slate-500 mt-0.5">Maharaj Vijayaram Gajapathi Raj College of Engineering</p>
+        <p className="text-xs text-slate-500 mt-0.5">Est. 1997 · Chintalavalasa, Vizianagaram</p>
       </div>
       <div className="p-6 space-y-4">
         {data ? (
@@ -61,7 +62,7 @@ export default function CertificatePreview({ data }) {
                 Code
               </div>
               <div className="text-right">
-                <p className="text-xs font-serif italic text-slate-500">Registrar</p>
+                <p className="text-xs font-serif italic text-slate-500">Principal</p>
                 <div className="w-24 h-0.5 bg-[#0F172A] mt-1 ml-auto" />
               </div>
             </div>

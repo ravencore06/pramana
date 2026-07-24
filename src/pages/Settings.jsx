@@ -38,9 +38,9 @@ export default function Settings() {
                 R
               </div>
               <div>
-                <p className="text-sm font-semibold text-[#0F172A]">Registrar</p>
-                <p className="text-xs text-slate-500">admin@aster.edu</p>
-                <p className="text-xs text-slate-400">Aster Institute of Technology</p>
+                <p className="text-sm font-semibold text-[#0F172A]">Principal</p>
+                <p className="text-xs text-slate-500">principal.mvgr@gmail.com</p>
+                <p className="text-xs text-slate-400">MVGR College of Engineering</p>
               </div>
             </div>
             <Button
@@ -135,7 +135,7 @@ export default function Settings() {
               </div>
             </div>
             <div className="pt-3 border-t border-slate-100">
-              <p className="text-xs text-slate-400">Version 1.0.0 · Aster Institute of Technology © {new Date().getFullYear()}</p>
+              <p className="text-xs text-slate-400">Version 1.0.0 · MVGR College of Engineering © {new Date().getFullYear()}</p>
             </div>
           </div>
         </motion.div>

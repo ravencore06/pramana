@@ -20,8 +20,8 @@ export default function Navbar({ toggleSidebar, sidebarOpen }) {
             <GraduationCap size={22} />
           </div>
           <div className="hidden sm:block">
-            <h1 className="text-sm font-bold leading-tight">Aster Institute of Technology</h1>
-            <p className="text-[10px] text-blue-200 leading-tight">Academic Certificate System</p>
+            <h1 className="text-sm font-bold leading-tight">MVGR College of Engineering</h1>
+            <p className="text-[10px] text-blue-200 leading-tight">Autonomous · NAAC 'A' Accredited</p>
           </div>
         </div>
       </div>
@@ -40,8 +40,8 @@ export default function Navbar({ toggleSidebar, sidebarOpen }) {
               R
             </div>
             <div className="hidden md:block text-left">
-              <p className="text-xs font-medium leading-tight">Registrar</p>
-              <p className="text-[10px] text-blue-200 leading-tight">admin@aster.edu</p>
+              <p className="text-xs font-medium leading-tight">Principal</p>
+              <p className="text-[10px] text-blue-200 leading-tight">principal.mvgr@gmail.com</p>
             </div>
             <ChevronDown size={14} className="hidden md:block" />
           </button>
