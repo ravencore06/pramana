@@ -2,11 +2,11 @@ export default function QRCodePanel({ value, size = 120 }) {
   return (
     <div className="flex flex-col items-center gap-2">
       <div
-        className="bg-white border-2 border-[#0F172A] rounded-xl p-2"
+        className="bg-white border-2 border-[#800000] rounded-xl p-2"
         style={{ width: size + 16, height: size + 16 }}
       >
         <div
-          className="w-full h-full bg-[#0F172A] relative overflow-hidden"
+          className="w-full h-full bg-[#800000] relative overflow-hidden"
           style={{
             maskImage: "radial-gradient(circle at 50% 50%, transparent 35%, black 36%, black 100%)",
             WebkitMaskImage: "radial-gradient(circle at 50% 50%, transparent 35%, black 36%, black 100%)",
@@ -20,7 +20,7 @@ export default function QRCodePanel({ value, size = 120 }) {
               />
             ))}
           </div>
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-5 h-5 bg-white border-2 border-[#0F172A] rounded" />
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-5 h-5 bg-white border-2 border-[#800000] rounded" />
         </div>
       </div>
       <span className="text-[10px] text-slate-400 font-mono">{value}</span>

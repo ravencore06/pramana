@@ -29,14 +29,14 @@ export default function CertificateTable({ certificates, onView, showActions = t
                 initial={{ opacity: 0, y: 4 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: i * 0.03 }}
-                className="hover:bg-slate-50 transition-colors"
+                className="hover:bg-red-50/40 transition-colors"
               >
                 <td className="px-4 py-3">
-                  <span className="font-mono text-xs font-medium text-[#2563EB]">{cert.id}</span>
+                  <span className="font-mono text-xs font-semibold text-[#991B1B]">{cert.id}</span>
                 </td>
                 <td className="px-4 py-3">
                   <div>
-                    <p className="font-medium text-[#0F172A]">{cert.studentName}</p>
+                    <p className="font-semibold text-[#1E293B]">{cert.studentName}</p>
                     <p className="text-xs text-slate-400">{cert.studentId}</p>
                   </div>
                 </td>
@@ -50,7 +50,7 @@ export default function CertificateTable({ certificates, onView, showActions = t
                   <td className="px-4 py-3 text-right">
                     <button
                       onClick={() => onView?.(cert)}
-                      className="text-xs font-medium text-[#2563EB] hover:text-blue-700 hover:underline transition-colors"
+                      className="text-xs font-semibold text-[#991B1B] hover:text-[#7F1D1D] hover:underline transition-colors cursor-pointer"
                     >
                       View
                     </button>

@@ -6,7 +6,7 @@ export default function FilterDropdown({ label, options, value, onChange }) {
       <select
         value={value}
         onChange={(e) => onChange(e.target.value)}
-        className="appearance-none bg-white border border-slate-200 rounded-xl px-3 py-2 pr-8 text-sm focus:border-[#2563EB] focus:ring-2 focus:ring-blue-100 transition-all outline-none cursor-pointer"
+        className="appearance-none bg-white border border-slate-200 rounded-xl px-3 py-2 pr-8 text-sm focus:border-[#991B1B] focus:ring-2 focus:ring-red-100 transition-all outline-none cursor-pointer"
         aria-label={label}
       >
         {options.map((opt) => (

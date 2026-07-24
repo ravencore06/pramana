@@ -3,52 +3,52 @@ import { GraduationCap } from "lucide-react";
 export default function CertificatePreview({ data }) {
   return (
     <div className="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
-      <div className="border-b-4 border-[#1E3A8A] p-6 text-center">
+      <div className="border-b-4 border-[#800000] p-6 text-center">
         <div className="flex justify-center mb-3">
-          <div className="p-3 bg-[#0F172A] rounded-full">
+          <div className="p-3 bg-[#800000] rounded-full">
             <GraduationCap size={28} className="text-white" />
           </div>
         </div>
-        <h3 className="text-lg font-bold text-[#0F172A]">MVGR College of Engineering</h3>
-  <p className="text-xs text-slate-500 mt-0.5">Maharaj Vijayaram Gajapathi Raj College of Engineering</p>
-        <p className="text-xs text-slate-500 mt-0.5">Est. 1997 · Chintalavalasa, Vizianagaram</p>
+        <h3 className="text-lg font-bold text-[#1E293B]">MVGR College of Engineering</h3>
+        <p className="text-xs text-slate-500 mt-0.5">Maharaj Vijayaram Gajapathi Raj College of Engineering</p>
+        <p className="text-xs text-slate-500 mt-0.5">Est. 1997 · Chintalavalasa, Vizianagaram · EAPCET: MVRG</p>
       </div>
       <div className="p-6 space-y-4">
         {data ? (
           <>
             <div className="text-center border-b border-slate-100 pb-3">
-              <h4 className="text-sm font-semibold text-[#1E3A8A] uppercase tracking-wider">Degree Certificate</h4>
+              <h4 className="text-sm font-semibold text-[#800000] uppercase tracking-wider">Degree Certificate</h4>
             </div>
             <div className="space-y-2.5">
               <div className="flex justify-between text-sm">
                 <span className="text-slate-500">Student Name</span>
-                <span className="font-semibold text-[#0F172A]">{data.studentName}</span>
+                <span className="font-semibold text-[#1E293B]">{data.studentName}</span>
               </div>
               <div className="flex justify-between text-sm">
                 <span className="text-slate-500">Student ID</span>
-                <span className="font-semibold text-[#0F172A]">{data.studentId}</span>
+                <span className="font-semibold text-[#1E293B]">{data.studentId}</span>
               </div>
               <div className="flex justify-between text-sm">
                 <span className="text-slate-500">Degree</span>
-                <span className="font-semibold text-[#0F172A]">{data.degree}</span>
+                <span className="font-semibold text-[#1E293B]">{data.degree}</span>
               </div>
               <div className="flex justify-between text-sm">
                 <span className="text-slate-500">Department</span>
-                <span className="font-semibold text-[#0F172A]">{data.department}</span>
+                <span className="font-semibold text-[#1E293B]">{data.department}</span>
               </div>
               <div className="flex justify-between text-sm">
                 <span className="text-slate-500">CGPA</span>
-                <span className="font-semibold text-[#0F172A]">{data.cgpa}</span>
+                <span className="font-semibold text-[#1E293B]">{data.cgpa}</span>
               </div>
               <div className="flex justify-between text-sm">
                 <span className="text-slate-500">Issue Date</span>
-                <span className="font-semibold text-[#0F172A]">{data.issueDate}</span>
+                <span className="font-semibold text-[#1E293B]">{data.issueDate}</span>
               </div>
             </div>
             <div className="border-t border-slate-100 pt-3 space-y-1.5">
               <div className="flex justify-between text-xs">
                 <span className="text-slate-400">Certificate ID</span>
-                <span className="font-mono text-[#2563EB] font-medium">{data.id}</span>
+                <span className="font-mono text-[#991B1B] font-medium">{data.id}</span>
               </div>
               <div className="bg-slate-50 rounded-lg p-2">
                 <p className="text-[10px] text-slate-400 mb-1">SHA-256 Hash</p>
@@ -63,7 +63,7 @@ export default function CertificatePreview({ data }) {
               </div>
               <div className="text-right">
                 <p className="text-xs font-serif italic text-slate-500">Principal</p>
-                <div className="w-24 h-0.5 bg-[#0F172A] mt-1 ml-auto" />
+                <div className="w-24 h-0.5 bg-[#800000] mt-1 ml-auto" />
               </div>
             </div>
           </>

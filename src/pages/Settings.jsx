@@ -27,18 +27,18 @@ export default function Settings() {
       <div className="max-w-2xl space-y-6">
         <motion.div initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} className={sectionClass}>
           <div className="flex items-center gap-3 mb-4">
-            <div className="p-2 bg-blue-50 rounded-xl">
-              <User size={18} className="text-[#2563EB]" />
+            <div className="p-2 bg-red-50 rounded-xl">
+              <User size={18} className="text-[#991B1B]" />
             </div>
-            <h3 className="text-base font-semibold text-[#0F172A]">Profile</h3>
+            <h3 className="text-base font-semibold text-[#1E293B]">Profile</h3>
           </div>
           <div className="space-y-4">
             <div className="flex items-center gap-4">
-              <div className="w-14 h-14 bg-[#2563EB] rounded-full flex items-center justify-center text-white text-lg font-bold">
-                R
+              <div className="w-14 h-14 bg-[#800000] rounded-full flex items-center justify-center text-white text-lg font-bold">
+                P
               </div>
               <div>
-                <p className="text-sm font-semibold text-[#0F172A]">Principal</p>
+                <p className="text-sm font-semibold text-[#1E293B]">Principal</p>
                 <p className="text-xs text-slate-500">principal.mvgr@gmail.com</p>
                 <p className="text-xs text-slate-400">MVGR College of Engineering</p>
               </div>
@@ -58,16 +58,16 @@ export default function Settings() {
             <div className="p-2 bg-amber-50 rounded-xl">
               <Bell size={18} className="text-amber-600" />
             </div>
-            <h3 className="text-base font-semibold text-[#0F172A]">Notification Preferences</h3>
+            <h3 className="text-base font-semibold text-[#1E293B]">Notification Preferences</h3>
           </div>
           <div className={rowClass}>
             <div>
-              <p className="text-sm font-medium text-[#0F172A]">Email Notifications</p>
+              <p className="text-sm font-medium text-[#1E293B]">Email Notifications</p>
               <p className="text-xs text-slate-500">Receive certificate updates via email</p>
             </div>
             <button
               onClick={() => setEmailNotif(!emailNotif)}
-              className={`relative w-10 h-6 rounded-full transition-colors ${emailNotif ? "bg-[#2563EB]" : "bg-slate-300"}`}
+              className={`relative w-10 h-6 rounded-full transition-colors ${emailNotif ? "bg-[#991B1B]" : "bg-slate-300"}`}
               aria-label={emailNotif ? "Disable email notifications" : "Enable email notifications"}
             >
               <div className={`absolute top-0.5 w-5 h-5 bg-white rounded-full shadow-sm transition-transform ${emailNotif ? "translate-x-[18px]" : "translate-x-0.5"}`} />
@@ -75,11 +75,11 @@ export default function Settings() {
           </div>
           <div className={rowClass}>
             <div>
-              <p className="text-sm font-medium text-[#0F172A]">Verification Alerts</p>
+              <p className="text-sm font-medium text-[#1E293B]">Verification Alerts</p>
               <p className="text-xs text-slate-500">Get notified when certificates are verified</p>
             </div>
             <button
-              className="relative w-10 h-6 rounded-full bg-[#2563EB]"
+              className="relative w-10 h-6 rounded-full bg-[#991B1B]"
               aria-label="Verification alerts enabled"
             >
               <div className="absolute top-0.5 w-5 h-5 bg-white rounded-full shadow-sm translate-x-[18px]" />
@@ -92,19 +92,19 @@ export default function Settings() {
             <div className="p-2 bg-purple-50 rounded-xl">
               <Moon size={18} className="text-purple-600" />
             </div>
-            <h3 className="text-base font-semibold text-[#0F172A]">Appearance</h3>
+            <h3 className="text-base font-semibold text-[#1E293B]">Appearance</h3>
           </div>
           <div className={rowClass}>
             <div className="flex items-center gap-3">
               {darkMode ? <Moon size={16} className="text-slate-500" /> : <Sun size={16} className="text-slate-500" />}
               <div>
-                <p className="text-sm font-medium text-[#0F172A]">Dark Mode</p>
+                <p className="text-sm font-medium text-[#1E293B]">Dark Mode</p>
                 <p className="text-xs text-slate-500">Toggle dark theme (coming soon)</p>
               </div>
             </div>
             <button
               onClick={() => setDarkMode(!darkMode)}
-              className={`relative w-10 h-6 rounded-full transition-colors ${darkMode ? "bg-[#2563EB]" : "bg-slate-300"}`}
+              className={`relative w-10 h-6 rounded-full transition-colors ${darkMode ? "bg-[#991B1B]" : "bg-slate-300"}`}
               aria-label={darkMode ? "Disable dark mode" : "Enable dark mode"}
             >
               <div className={`absolute top-0.5 w-5 h-5 bg-white rounded-full shadow-sm transition-transform ${darkMode ? "translate-x-[18px]" : "translate-x-0.5"}`} />
@@ -114,23 +114,27 @@ export default function Settings() {
 
         <motion.div initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className={sectionClass}>
           <div className="flex items-center gap-3 mb-4">
-            <div className="p-2 bg-slate-100 rounded-xl">
-              <Info size={18} className="text-slate-600" />
+            <div className="p-2 bg-red-50 rounded-xl">
+              <Info size={18} className="text-[#991B1B]" />
             </div>
-            <h3 className="text-base font-semibold text-[#0F172A]">About System</h3>
+            <h3 className="text-base font-semibold text-[#1E293B]">About System</h3>
           </div>
           <div className="space-y-3">
             <div className="flex items-center gap-3">
-              <GraduationCap size={16} className="text-slate-400" />
+              <div className="p-1.5 bg-red-50 rounded-lg">
+                <GraduationCap size={16} className="text-[#991B1B]" />
+              </div>
               <div>
-                <p className="text-sm font-medium text-[#0F172A]">Pramāṇa</p>
+                <p className="text-sm font-medium text-[#1E293B]">Pramāṇa</p>
                 <p className="text-xs text-slate-500">Academic Certificate Verification System</p>
               </div>
             </div>
             <div className="flex items-center gap-3">
-              <Shield size={16} className="text-slate-400" />
+              <div className="p-1.5 bg-emerald-50 rounded-lg">
+                <Shield size={16} className="text-emerald-600" />
+              </div>
               <div>
-                <p className="text-sm font-medium text-[#0F172A]">Security</p>
+                <p className="text-sm font-medium text-[#1E293B]">Security</p>
                 <p className="text-xs text-slate-500">SHA-256 hashing · Tamper-proof verification</p>
               </div>
             </div>

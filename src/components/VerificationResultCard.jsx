@@ -53,25 +53,25 @@ export default function VerificationResultCard({ result, type }) {
           <div className="flex items-center gap-3">
             <User size={14} className="text-slate-400" />
             <span className="text-sm text-slate-600">
-              <strong className="text-[#0F172A]">Name:</strong> {result.data.studentName}
+              <strong className="text-[#1E293B]">Name:</strong> {result.data.studentName}
             </span>
           </div>
           <div className="flex items-center gap-3">
             <BookOpen size={14} className="text-slate-400" />
             <span className="text-sm text-slate-600">
-              <strong className="text-[#0F172A]">Degree:</strong> {result.data.degree} — {result.data.department}
+              <strong className="text-[#1E293B]">Degree:</strong> {result.data.degree} — {result.data.department}
             </span>
           </div>
           <div className="flex items-center gap-3">
             <Calendar size={14} className="text-slate-400" />
             <span className="text-sm text-slate-600">
-              <strong className="text-[#0F172A]">Issued:</strong> {result.data.issueDate}
+              <strong className="text-[#1E293B]">Issued:</strong> {result.data.issueDate}
             </span>
           </div>
           <div className="flex items-center gap-3">
             <Hash size={14} className="text-slate-400" />
             <span className="text-sm text-slate-600">
-              <strong className="text-[#0F172A]">ID:</strong> {result.data.id}
+              <strong className="text-[#1E293B]">ID:</strong> {result.data.id}
             </span>
           </div>
           <div className="flex items-center gap-2 mt-2">

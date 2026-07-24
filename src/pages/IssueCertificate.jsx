@@ -46,7 +46,7 @@ export default function IssueCertificate() {
     const allFilled = form.studentName && form.studentId && form.department && form.degree && form.cgpa && form.issueDate;
     if (!allFilled) return null;
     return {
-      id: `AST-2026-${String(Math.floor(Math.random() * 9000) + 1000)}`,
+      id: `MVR-2026-${String(Math.floor(Math.random() * 9000) + 1000)}`,
       studentName: form.studentName,
       studentId: form.studentId,
       department: form.department,
@@ -79,7 +79,7 @@ export default function IssueCertificate() {
             animate={{ opacity: 1, y: 0 }}
             className="lg:col-span-3 bg-white rounded-xl border border-slate-200 p-6 shadow-sm"
           >
-            <h3 className="text-base font-semibold text-[#0F172A] mb-5">Student & Certificate Details</h3>
+            <h3 className="text-base font-semibold text-[#1E293B] mb-5">Student & Certificate Details</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <Input label="Student Name" id="studentName" name="studentName" value={form.studentName} onChange={handleChange} required placeholder="e.g. Arjun Mehta" />
               <Input label="Student ID" id="studentId" name="studentId" value={form.studentId} onChange={handleChange} required placeholder="e.g. STU2024001" />
@@ -117,7 +117,7 @@ export default function IssueCertificate() {
             transition={{ delay: 0.1 }}
             className="lg:col-span-2"
           >
-            <h3 className="text-base font-semibold text-[#0F172A] mb-4">Certificate Preview</h3>
+            <h3 className="text-base font-semibold text-[#1E293B] mb-4">Certificate Preview</h3>
             <CertificatePreview data={previewData} />
           </motion.div>
         </div>

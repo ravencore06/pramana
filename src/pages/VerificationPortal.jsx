@@ -21,9 +21,7 @@ export default function VerificationPortal() {
     );
 
     if (cert) {
-      setResult({
-        data: cert,
-      });
+      setResult({ data: cert });
       setResultType("verified");
     } else {
       setResult({
@@ -44,15 +42,20 @@ export default function VerificationPortal() {
 
   return (
     <div>
+      <PageHeader
+        title="Verification Portal"
+        description="Verify the authenticity of academic certificates issued by MVGR College of Engineering."
+      />
+
       <motion.div
         initial={{ opacity: 0, y: 8 }}
         animate={{ opacity: 1, y: 0 }}
-        className="max-w-2xl mx-auto text-center mb-8"
+        className="max-w-2xl mx-auto text-center mb-10"
       >
-        <div className="inline-flex p-3 bg-blue-50 rounded-full mb-4">
-          <ShieldCheck size={28} className="text-[#2563EB]" />
+        <div className="inline-flex p-3 bg-red-50 rounded-full mb-4">
+          <ShieldCheck size={28} className="text-[#991B1B]" />
         </div>
-        <h1 className="text-2xl sm:text-3xl font-bold text-[#0F172A]">Verify Academic Certificate</h1>
+        <h1 className="text-2xl sm:text-3xl font-bold text-[#1E293B]">Verify Academic Certificate</h1>
         <p className="text-sm text-slate-500 mt-2 max-w-lg mx-auto">
           Enter the Certificate ID or Verification Hash to verify the authenticity of a certificate.
         </p>
@@ -62,7 +65,7 @@ export default function VerificationPortal() {
         initial={{ opacity: 0, y: 8 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.1 }}
-        className="max-w-xl mx-auto bg-white rounded-2xl border border-slate-200 p-6 shadow-sm mb-8"
+        className="max-w-xl mx-auto bg-white rounded-2xl border border-slate-200 p-6 shadow-sm mb-10"
       >
         <div className="flex flex-col sm:flex-row gap-3">
           <div className="relative flex-1">
@@ -73,7 +76,7 @@ export default function VerificationPortal() {
               onChange={(e) => setQuery(e.target.value)}
               onKeyDown={handleKeyDown}
               placeholder="e.g. AST-2026-0001 or SHA-256 hash"
-              className="w-full pl-11 pr-4 py-3 text-sm border border-slate-200 rounded-xl bg-white focus:border-[#2563EB] focus:ring-2 focus:ring-blue-100 transition-all outline-none"
+              className="w-full pl-11 pr-4 py-3 text-sm border border-slate-200 rounded-xl bg-white focus:border-[#991B1B] focus:ring-2 focus:ring-red-100 transition-all outline-none"
             />
           </div>
           <Button variant="primary" size="lg" icon={Search} onClick={handleVerify}>
